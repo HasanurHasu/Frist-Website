@@ -44,3 +44,37 @@
 .banner-photo{
     width: 300px;
 }
+.headline{
+    font-size: 60px;
+}
+.description{
+    margin: 15px 0px;
+    font-size: 18px;
+}
+.btn{
+    padding: 12px 18px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.about {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 60px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+
+}
+
+.about-photo {
+    width: 300px;
+}
+.summary{
+    margin: 20px 0px;
+}
