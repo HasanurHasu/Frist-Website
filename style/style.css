@@ -4,13 +4,43 @@
 }
 
 .nav-container{
-    background-color: gray;
+    background-color: rgb(99, 98, 98);
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
+    height: 50px;
 
 }
 .logo-img{
-    width: 140px;
+    width: 120px;
+    padding-top: 5px;
+}
+.menu-item{
+    display: flex;
+    align-items: center;
+}
+.item{
+    margin-right: 12px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    
+}
+.item:hover{
+    color: blue;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/images/background.png'), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-photo{
+    width: 300px;
 }
